@@ -1,0 +1,118 @@
+*{
+	box-sizing:border-box;
+}
+	body{
+    	width:960px;
+	}
+	h2, h3 ,nav {
+		font-family:cursive, Arial, Helvetica, sans-serif;
+	}
+	#wrapper{ 
+		margin:20px;
+		width:100%;
+		font-family:Arial, Helvetica, sans-serif;
+		position:relative;	
+	}
+	.clearfix::after {
+		content:"";
+		display:block;
+		clear:both;
+	}
+	#logo{
+		background-color:silver;
+    	color:blue;
+		font-family:cursive, Arial, Helvetica, sans-serif;
+		text-align:center;
+		width:25%;
+		margin-top:40px;
+		display:inline-block;
+	}
+	nav{
+			float:right;
+			margin:55px 300px 0 0;
+	}
+		nav ul li{
+			display:inline-block;
+		}
+		nav ul li a{
+			padding:0 10px 0 0 ; 
+			color:blue;
+		}
+		a{
+			text-decoration: none;
+		}
+	#me {
+		width:190px;
+		float:left;
+	}
+	#stats{
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		color:blue;
+	}
+	#about {
+		text-align:center;
+		color:blue;
+		width:600px;
+	}
+	#ports {
+		position:relative;
+		max-width:650px;
+	}
+	#connect{
+		float:right;
+		margin-left:194px;
+		color:blue;
+		text-align:center;
+		background:silver;
+		position:relative;
+		right:140px;
+		bottom:277px;	
+	}
+	.icon{
+		width:50px;
+		height:50px;
+		}					
+	#content{
+		max-width:650px;
+		overflow:auto;
+		color:silver;
+		background-image:url("../images/darkness.png");
+	}
+	.portfolio{
+		width:150px;
+		height:200px;
+		z-index:-1;
+		position:absolute;
+	}
+	#hangman{
+		top:0;
+		left:20;
+	}
+	#rpg{
+		top:0;
+		right:315;
+	}
+	#trivia{
+		top:215;
+		left:20;
+	}
+	#rutgers{
+		top:215;
+		right:315;
+	}
+	#rock{
+		top:445px;
+		left:20;
+	}
+	footer{
+		height:95px;
+		border-top:9px blue solid;
+		margin-bottom:10px;
+		background-color:silver;
+		color:blue;
+		text-align:center;
+		position:fixed;
+		width:650px;
+	}
